@@ -4,6 +4,7 @@
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 vim.keymap.set('n', '<C-\\>', '<cmd>vsp<CR>')
+vim.g.nofsync = true
 
 -- Set to true if you have a Nerd Font installed
 vim.g.have_nerd_font = true
